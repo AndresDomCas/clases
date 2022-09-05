@@ -12,8 +12,6 @@
 
     <form method="post" action="{{ route('crud/store') }}">
         @csrf
-
-        <label for="">Dato 1</label>
         <input type="text" name="dato1">
 
         <label for="">Dato 2</label>
